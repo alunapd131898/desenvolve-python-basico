@@ -1,0 +1,10 @@
+text = "O resultado é"
+v1 = 10
+v2 = 3.5
+v3 = v1 + v2
+
+#variáveis na ordem de criação
+print (f"{text} {v1} {v2} {v3}")
+
+#tipos
+print (f"variavel tex: {type(text)} tipo da variavel v1:{type(v1)} tipo da variavel v2:{type(v2)} tipo da variavel v3:{type(v3)}")
