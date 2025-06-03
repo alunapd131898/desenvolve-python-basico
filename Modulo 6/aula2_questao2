@@ -1,0 +1,18 @@
+import random
+
+# Gerar um número aleatório entre 5 e 20
+num_elementos = random.randint(5, 20)
+
+# Gerar uma lista com 'num_elementos' números aleatórios entre 1 e 10
+elementos = [random.randint(1, 10) for _ in range(num_elementos)]
+
+# Calcular a soma dos valores da lista
+soma = sum(elementos)
+
+# Calcular a média dos valores da lista
+media = soma / num_elementos
+
+# Imprimir os resultados
+print("Lista de elementos:", elementos)
+print("Soma dos valores:", soma)
+print("Média dos valores:", round(media, 2))
